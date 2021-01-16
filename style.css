@@ -1,0 +1,140 @@
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-top: 5%;
+    transition: transform .5s;
+    border: 10px solid #AAAAAA
+}
+
+
+img:hover {
+    transform: scale(0.9);
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBd0;
+    font-size: 20px;
+    font-family: 'Redressed', cursive;
+}
+
+.empty {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.bio {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.List {
+    top: 10px;
+    right: 30px;
+    position: absolute;
+    z-index: 10;
+    list-style: none;
+    cursor: pointer;
+    float: left;
+    position: fixed;
+    text-decoration: none;
+}
+
+.List_item {
+    float: left;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    color: darkblue;
+    background-color: lightskyblue;
+    font-family: cursive;
+    font-size: 20px;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.List_item:hover {
+    background-color: lightcyan;
+}
+
+
+#intro {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+#review {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button {
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: lightcoral;
+}
+
+#Works {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+section {
+    height: 800px;
+}
+
+.square_images {
+    width: 500px;
+    height: 500px;
+    border-radius: 0px;
+    margin-right: 50%;
+    margin-left: 30%
+}
+
+.inspiration {
+    background: rgb(3, 94, 170);
+    background: radial-gradient(circle, rgba(3, 94, 170, 1) 22%, rgba(0, 106, 255, 1) 100%);
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
